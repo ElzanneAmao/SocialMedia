@@ -1,0 +1,6 @@
+git clone https://github.com/gwu-libraries/sfm-docker.git
+cd sfm-docker
+# Replace 1.11.0 with the correct version.
+git checkout 1.11.0
+cp example.prod.docker-compose.yml docker-compose.yml
+cp example.env .env
